@@ -51,3 +51,6 @@ Where, that is where HDR bracketing pops in, and I guess you know how to do it. 
 
 ## Brenizer's Method
 
+Another good thing about panorama is that it is effectively allowing you to use an "ideal" lens of very large effective aperture with a very large format - which means you can get a super shallow depth of field while maintaining a fairly large field of view - and that is something you could barely achieve without a large format camera during the age of films. But thanks to the technology and digitalization, we now can "mimic" such photos by using panorama stitching!
+
+The secret behind this is that 
