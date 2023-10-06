@@ -20,13 +20,13 @@ I would recommend at least a tripod and a nodal slide, although I often do the p
 
 The reason I do not suggest hand-held is that if you rotate the camera as you usually do - that is, to rotate it around the body, you would 100% miss the nodal point:
 
-> [nodal point](https://cdn.fstoppers.com/styles/full/s3/media/2020/05/13/nando-nodal-point.jpg)
+> ![nodal point](https://cdn.fstoppers.com/styles/full/s3/media/2020/05/13/nando-nodal-point.jpg)
 >
 > Source: FStoppers
 
 And this could actually cause such a result:
 
-> [parallax](https://upload.wikimedia.org/wikipedia/commons/2/2e/Parallax_Example.png)
+> ![parallax](https://upload.wikimedia.org/wikipedia/commons/2/2e/Parallax_Example.png)
 >
 > Source: Wikipedia
 
