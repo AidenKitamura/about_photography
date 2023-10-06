@@ -27,7 +27,7 @@ The reason I do not suggest hand-held is that if you rotate the camera as you us
 And this could actually cause such a result:
 
 > ![parallax](https://upload.wikimedia.org/wikipedia/commons/2/2e/Parallax_Example.png)
->
+> 
 > Source: Wikipedia
 
 Assume you were the stitcher and you saw the above example, would you know how to stitch the images? I guess not! And always remember that machines are usually more stupid than us, so please please think from the machine's perspective and try to provide photos with less parallax so that it can do the job for you.
@@ -46,8 +46,23 @@ Now a new question pops up - what if the darkest spot and brightest spot have su
 
 Where, that is where HDR bracketing pops in, and I guess you know how to do it. The reference exposure remains the same, though. In the example I mentioned just now, say we have the darkest spot of 0 EV and brightest spot as 20 EV, we will set the exposure to be the one corresponding to 10 EV, and enable HDR bracketing of +/- 3EV. In this case,  the reference image would capture information between 2.0EV to 18.0EV, the darker one would capture the information from 5.0EV to 21.0EV, while the brigher one would capture information of -1.0EV to 15.0 EV. Once you combine them together, you have information from -1.0EV until 21.0EV.
 
+> ![bracketing example](https://cdn.mos.cms.futurecdn.net/AP2mkbJN2gNguNo29dHB8H-1200-80.png)
+>
+> Source: DigitalCameraWorld
+
 ## Regarding Imaging
 
+Panorama itself can be useful in another case, and that is, to maintain the perspective you want to. It allows you to perform effectively a shift without needing a tilt-shift lens and technical cameras.
+
+One question I faced before was that how come those illustrations can prompt me with an organized feeling, and further lead me to the thing the author would like me to see?
+
+I bore the question with me for a long time, until someday I suddenly developed an interest in tilt-shift and learned about its effects, and something occured to me. A lot of photos - they prompt an organized feeling, because they are organized in a way. The most obvious example would be architecture photography - they have so little portion of the ground scene while so much of the architecture itself, and preserving the parallel lines of the architecture. Here is an example:
+
+> ![tilt-shift example](https://s.studiobinder.com/wp-content/uploads/2019/08/What-is-a-Tilt-Shift-Shot-Tilt-Shift-Lens-Vertical-Convergence.jpg?resolution=1680,1.600000023841858)
+> 
+> Source: StudioBinder
+
+We found the left image more amusing because it is organized - it preserves the perspective. Advanced panorama stiching software like PTGUI and Hugin allows you to change the view point toward a panorama by manipulating the projection, and hence manipulate the perspective. Usually you would get a more amusing image by using panorama stitching than by using tilt-shift lenses, because you do not face the optical defects of a physical lens at its rim. This is rather helpful when you shoot architecture and, in my opinion, portraits sometimes.
 
 ## Brenizer's Method
 
