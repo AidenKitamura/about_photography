@@ -93,3 +93,16 @@ This method could be rather amusing especially when taking portraits: you could 
 
 ## Of Failure and Success
 
+A question I faced, when applying stitching panoramas, which troubled me a lot, was how to judge if a panorama will be successfully stitched or it would fail? How to decide if I could successfully apply the technique, given a scene setup?
+
+This is a rather common problem, and it is actually the million dollar question in the techniques of doing a panorama. Once you got the answer, you would definitely know if a stitching would succeed, or fail, in advance, which shall be a very important reference when you are doing your work - because if you know something would fail, why stick to it instead of take out the wide angle lens in your bag and compromise? Sometimes, you just need to firstly capture the scene, and then worry about the quality of work, which, from my perspective, should not be something to be worried about unless you are a professional who really rely on this business.
+
+I conclude my experiences into the following procedure. If you walk along this procedure, you will know if you are getting the result.
+
+1. Are there enough POIs in the scene and is your split of scene (that is to say, to capture which part of the scene for each image) reasonable? For example, if you are shooting a painting, in which a very long section is pure white, it is highly probable that you wouldn't be able to stitch it because there are literally no POI in that long white section, and you wouldn't be able to find a reasonable split of scene should you use telephoto lens.
+2. If POIs exist and a reasonable split of scene exist, are there moving objects that could disturb the finding of POIs? For example, a car passing through you image, covering the POIs you would like to use. If the answer is yes and the moving object will be essentially preventing you from getting the POIs, you would probably fail and should think of using some other methods.
+3. If those moving objects are not blocking the essential POIs, for example, you have some people walking in the scene (which I assume you would like to remove afterwards), Will you be able to capture whatever detail you want in the series of photos? For example, I could accept a man walking by, blocking a part of a street for a moment, but in the next photo I should be able to capture the details of the street missed out in the previous one. If you cannot, you might still be able to stitch the panorama, but you will spend more time on removing the unwanted objects and covering the lost parts.
+
+It is essentially easy like this. Once you ask yourself the 3 questions above, I believe you will have a judgement on whether the panorama is doable.
+
+Happy Shooting!
