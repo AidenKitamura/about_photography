@@ -50,6 +50,10 @@ Where, that is where HDR bracketing pops in, and I guess you know how to do it. 
 >
 > Source: DigitalCameraWorld
 
+So people might be worried about Vignette: do we count them in when claculating the exposure? After all, the Vignette could introduce a brightness difference of several EVs, and that, in extreme cases, might cause the loss of details in the dark?
+
+Well, My opinion on this would be that it doesn't really matter. After all, you are stitching images - and the software is going to select the center part of each image, which means you are not really using the parts with strong vignette. Even if you do - well, why don't you just rotate your camera and take one more shot? It is not that hard!
+
 ## Regarding Imaging
 
 Panorama itself can be useful in another case, and that is, to maintain the perspective you want to. It allows you to perform effectively a shift without needing a tilt-shift lens and technical cameras.
@@ -64,8 +68,28 @@ I bore the question with me for a long time, until someday I suddenly developed 
 
 We found the left image more amusing because it is organized - it preserves the perspective. Advanced panorama stiching software like PTGUI and Hugin allows you to change the view point toward a panorama by manipulating the projection, and hence manipulate the perspective. Usually you would get a more amusing image by using panorama stitching than by using tilt-shift lenses, because you do not face the optical defects of a physical lens at its rim. This is rather helpful when you shoot architecture and, in my opinion, portraits sometimes.
 
+When the software stitches the images for you, it will try to find Points of Interest (POI) in the images and distort the image, while blending them together. A rule of thumb, as introduced by some posts I read before - would be to make your images have 1/3 overlap during daytime, or 1/2 overlap during night time. Actually, even if you take more or less, the stitching might still succeed / fail, all depending on the discovery point of interest. An easy example to demostrate this would be to stitch sky without clouds - and this would almost certainly fail, because you cannot find Points of Interest in the images. Once you have the POIs, I say you are good to go.
+
 ## Brenizer's Method
 
 Another good thing about panorama is that it is effectively allowing you to use an "ideal" lens of very large effective aperture with a very large format - which means you can get a super shallow depth of field while maintaining a fairly large field of view - and that is something you could barely achieve without a large format camera during the age of films. But thanks to the technology and digitalization, we now can "mimic" such photos by using panorama stitching!
 
-The secret behind this is that 
+The secret behind this is that the depth of field (DoF) will not change should you use the same lens, be on the same aperture and focus to the same distance. When you are using a wide-angle lens, you are using an effectively smaller aperture for a specific part of the scene. It shall be explained in the following diagram:
+
+> ![Effective Aperture](../images/effective_aperture.jpg)
+>
+> Source: Myself
+
+You will found the following properties:
+
+1. With a specific aperture, regardless of its focal length (assume light transmission rate 100% through the lens), the same area on CMOS will receive the same amount of light.
+2. With a specific aperture, regarding the same part of a scene, a wider-angle lens will receive less amount of light from it, and the light of that specific part is effectively passing through a smaller physical aperture, compared to a telephoto lens. Thus, the Circle of Confusiion (CoC) of that part of Scene is effectively smaller with a wider-angle lens.
+
+As you might heard from some photography textbook, that the Circle of Confusion is the determinant factor of the DoF of a photo, considering we are talking about a same CMOS / film. A larger CoC means that the light will spread into a light spot instead of a light dot more quickly, and therefore, blurs a certain part of scene more quickly.
+
+Now consider you are shooting using a 85mm f1.4 lens. You know that you will have a larger CoC compared to a 35mm f1.4, with regard to a specific part of the scene, causing a shallower DoF. However, you also know that when you are using 85mm, you wouldn't be able to capture as much scene as a 35mm lens does, so you decided to stitch the photos shot with a 85mm f1.4, and guess what the result will be? You can get a photo with effective Field of View like a 35mm one, while preserve the shallow depth of field of a 85mm. And this is what called as "Brenizer's Method": Basically capture a larger FoV with a shallower DoF by stitching photos produced by a large-aperture lens with long focal length.
+
+This method could be rather amusing especially when taking portraits: you could blur away the distractions in a scene easily. And this is where Brenizer'e Method was firstly used: in wedding photography.
+
+## Of Failure and Success
+
